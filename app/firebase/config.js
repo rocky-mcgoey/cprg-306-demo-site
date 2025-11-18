@@ -26,5 +26,5 @@ if (typeof window !== "undefined") {
 }
 
 const auth = getAuth(app);
-const db = getAuth(app);
+const db = getFirestore(app);
 export { app, auth, analytics, db };
